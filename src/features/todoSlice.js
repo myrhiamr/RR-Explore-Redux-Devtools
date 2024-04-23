@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
     items: []
-}
+}   // defines the initial state 
 
 export const todoSlice = createSlice({
     name: 'todos',
